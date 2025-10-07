@@ -1,41 +1,19 @@
-# Build Folders
+# Compiled files
 bin/
 obj/
 
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+# Secrets and environment files
+secrets.json
+*.secrets.json
+*.env
+.env
 
-# Rider project files
-.idea/
+# Deployment settings
+*.publishsettings
+*.pubxml
+*.pfx
+*.key
+*.cer
 
-# Visual Studio Code workspace settings
-.vscode/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# DotNet specific
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# NuGet packages
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/packages/*
-!**/packages/build/
-!**/packages/repositories.config
-
-# Entity Framework Migrations
-**/Migrations/
-
-# Environment settings (optional, recommended to ignore if contains secrets)
+# Other files
 appsettings.Development.json
-appsettings.Local.json
-
-# Others
-*.log
-*.DS_Store
